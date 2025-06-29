@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
+                git branch: 'main', 
                 git 'https://github.com/wiwit-k/web-simple.git'
             }
         }
