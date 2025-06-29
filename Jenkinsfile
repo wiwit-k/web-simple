@@ -4,7 +4,7 @@ pipeline {
         stage('Clone') {
             steps {
                 git branch: 'main', 
-                url: 'https://github.com/wiwit-k/web-simple'
+                url: 'https://github.com/wiwit-k/web-simple.git'
             }
         }
         stage('Build Docker Image') {
