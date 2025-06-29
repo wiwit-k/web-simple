@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/your-username/web-simple.git'
+                git 'https://github.com/wiwit-k/web-simple.git'
             }
         }
         stage('Build Docker Image') {
